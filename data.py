@@ -1,0 +1,18 @@
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+union_set = set1.union(set2)
+intersection_set = set1.intersection(set2)
+difference_set = set1.difference(set2)
+symmetric_difference_set = set1.symmetric_difference(set2)
+update = set1.update(set2)
+inter_up = set1.intersection_update(set2)
+diff_up = set1.difference_update(set2)
+sym_up = set1.symmetric_difference_update(set2)
+# print(union_set)
+# print(intersection_set)
+# print(difference_set)
+# print(symmetric_difference_set)
+print(update)
+print(inter_up)
+print(diff_up)
+print(sym_up)
