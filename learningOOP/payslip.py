@@ -1,3 +1,4 @@
+
 class payslip:
     def __init__(self, name, payment, amount) -> None:
         self.name = name

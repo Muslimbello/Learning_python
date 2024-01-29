@@ -10,7 +10,6 @@ for x in it:
 while True:
     try:
         print(next(it))
-        # pass
+
     except StopIteration:
         sys.exit()  # you have to import sys module for this
-        pass
