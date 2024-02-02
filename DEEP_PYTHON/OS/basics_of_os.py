@@ -4,10 +4,10 @@ import os
 
 
 current_directory = os.getcwd()
-print(f"Current Working Directory: {current_directory}")
+print(f"imitates the PWD function: {current_directory}")
 new_dir = "os"
-os.mkdir(new_dir)
+os.mkdir(new_dir)  # imitates the mkdir shell command
 files = os.listdir(current_directory)
 print({f" imitates the ls function{files}"})
 os.rmdir(new_dir)
-print(f"Removed directory: {new_dir}")
+print(f"imitates the rmdir or rm -r command: {new_dir}")
