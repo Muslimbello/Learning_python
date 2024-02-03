@@ -1,3 +1,4 @@
+""" using the exit function in the sys module"""
 import sys
 def fibonacci(n): #generator function
 	a, b, counter = 0, 1, 0
