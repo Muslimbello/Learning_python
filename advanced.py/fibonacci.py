@@ -1,4 +1,4 @@
-""" using the exit function in the sys module"""
+""" using the exit function in the sys module to create a program"""
 import sys
 
 
