@@ -1,3 +1,4 @@
+""" using the exit function in the sys module"""
 import sys
 
 
