@@ -2,7 +2,7 @@
 import sys
 
 
-def fibonacci(n):  # generator function
+def fibonacci(n):
     a, b, counter = 0, 1, 0
     while True:
         if counter > n:
@@ -12,7 +12,7 @@ def fibonacci(n):  # generator function
         counter += 1
 
 
-f = fibonacci(5)  # f is iterator object
+f = fibonacci(10)
 while True:
     try:
         print(next(f), end=" ")
