@@ -1,2 +1,0 @@
-name = 'muslim';
-print(name);

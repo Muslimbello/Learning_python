@@ -7,6 +7,6 @@ with open("filing/pet.txt", "r") as file:
     file_content = file.read()
     list_file_content = file_content.split("\n")
 
-petName = random.choice(list_file_content)
+pet = random.choice(list_file_content)
 print(list_file_content)
-print(petName)
+print(pet)

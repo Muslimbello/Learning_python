@@ -15,7 +15,7 @@ def calculate_subtotal(order):
         sum += foods["price"]
 
     return round(sum, 2)
-    raise NotImplementedError()
+    # raise NotImplementedError()
 
 
 def calculate_tax(subtotal):
@@ -23,7 +23,7 @@ def calculate_tax(subtotal):
     ### WRITE SOLUTION HERE
     tax = round(((subtotal * 15) / 100), 2)
     return tax
-    raise NotImplementedError()
+    # raise NotImplementedError()
 
 
 def summarize_order(order):
@@ -39,7 +39,7 @@ def summarize_order(order):
         names.append(foods["name"])
 
     return names, total
-    raise NotImplementedError()
+    # raise NotImplementedError()
 
 
 # This function  will print out the items in an order
