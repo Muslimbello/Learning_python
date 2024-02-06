@@ -1,4 +1,9 @@
-
+"""
+ the payslip function  represent payment information for individuals.
+The class has three attributes: name (representing the person's name),
+payment (a string indicating whether the person has been paid or not, initially set to "no"),
+and amount (representing the payment amount).
+"""
 class payslip:
     def __init__(self, name, payment, amount) -> None:
         self.name = name
