@@ -17,6 +17,5 @@ class Recipe:
 
 
 Pizza = Recipe("Pizza", ["tomato", "flour", "sugar"], "20")
-# print(Pizza.self)
 print(Pizza.dish)
 Pizza.counter()
