@@ -4,7 +4,7 @@ class Recipe:
         self.items = items
         self.time = time
 
-    def counter(self):
+    def __str__(self)->str:
         print(
             "The "
             + str(self.dish)
@@ -18,4 +18,3 @@ class Recipe:
 
 Pizza = Recipe("Pizza", ["tomato", "flour", "sugar"], "20")
 print(Pizza.dish)
-Pizza.counter()
